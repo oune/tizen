@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/tauBasic" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="dyrWdfgaWz.test2" package="dyrWdfgaWz" required_version="5.5"/>
+    <icon src="icon.png"/>
+    <name>test2</name>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting hwkey-event="enable"/>
+</widget>
