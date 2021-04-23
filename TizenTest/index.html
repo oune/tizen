@@ -30,14 +30,23 @@
             href="dist/wearable/theme/changeable/tau.circle.css"
         />
         <script src="dist/wearable/js/tau.js"></script>
-        <script src="js/main.js"></script>
     </head>
 
     <body>
-        <div class="contents">
-            <div style="margin: auto">
-                <span class="content_text" id="textbox">안녕하세요!</span>
+        <div class="ui-page">
+            <div class="ui-content">
+                <ul class="ui-listview">
+                    <li>List 01</li>
+                    <li>List 02</li>
+                    <li>List 03</li>
+                    <li>List 04</li>
+                    <li>List 05</li>
+                </ul>
             </div>
         </div>
+        <script>
+            var list = document.querySelector(".ui-listview");
+            tau.widget.Listview(list);
+        </script>
     </body>
 </html>
